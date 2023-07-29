@@ -2,11 +2,11 @@
   "name": "webcrawler",
   "version": "1.0.0",
   "description": "A webcrawler for reporting on internal links for SEO health",
-  "main": "crawl.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "start": "node crawl.js"
+    "start": "node main.js"
   },
   "author": "Umbrasyl",
   "license": "ISC",
